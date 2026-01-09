@@ -1,0 +1,46 @@
+[project]
+name = "math_reasoning"
+version = "0.1.0"
+description = ""
+authors = [{name="Nikhil Prakash", email="nikhil_prakash2@apple.com"}, {name="Yannick Assogba", email="yassogba@apple.com"}]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=1.25.2",
+    "pytest>=8.3.5",
+    "mypy>=1.15.0",
+    "ruff>=0.11.2 ",
+    "torch==2.8",
+    "transformers==4.53.0",
+    "datasets==4.4.1",
+    "dotenv>=0.9.9",
+    "click>=8.1.8",
+    "lm-eval>=0.4.0",
+    "peft>=0.16.0",
+    "accelerate>=0.34.2",
+    "wandb==0.22.3",
+    "h11>=0.15.0",
+    "pillow==12.0.0",
+    "python-socketio==5.14.3",
+    "requests==2.32.4",
+    "urllib3==2.6.3",
+]
+
+[tool.setuptools]
+packages = ["math_reasoning"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+select = ["E", "F", "D", "PL", "UP", "NPY", "B"]
+ignore = [
+    "D203", "D213", "ANN401", "D400",
+    "PLR0913", "PLR2004", "E501", "F401"
+]
+exclude = ["third_party", ".venv", "build", "dist"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.uv]
+package = true

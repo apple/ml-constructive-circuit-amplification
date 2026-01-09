@@ -1,0 +1,19 @@
+As an expert problem solver, solve step by step the following mathematical questions.
+Q: <SHOT_1_QUESTION>
+A: Let's think step by step. <SHOT_1_ANSWER>
+Q: <SHOT_2_QUESTION>
+A: Let's think step by step. <SHOT_2_ANSWER>
+Q: <SHOT_3_QUESTION>
+A: Let's think step by step. <SHOT_3_ANSWER>
+Q: <SHOT_4_QUESTION>
+A: Let's think step by step. <SHOT_4_ANSWER>
+Q: <SHOT_5_QUESTION>
+A: Let's think step by step. <SHOT_5_ANSWER>
+Q: <SHOT_6_QUESTION>
+A: Let's think step by step. <SHOT_6_ANSWER>
+Q: <SHOT_7_QUESTION>
+A: Let's think step by step. <SHOT_7_ANSWER>
+Q: <SHOT_8_QUESTION>
+A: Let's think step by step. <SHOT_8_ANSWER>
+Q: <TARGET_QUESTION>
+A: Let's think step by step.

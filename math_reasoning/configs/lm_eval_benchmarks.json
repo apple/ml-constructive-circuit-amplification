@@ -1,0 +1,58 @@
+{
+    "mmlu": {
+        "tasks": ["mmlu"],
+        "description": "Massive Multitask Language Understanding",
+        "num_fewshot": 5,
+        "batch_size": 4,
+        "limit": null
+    },
+    "gsm8k": {
+        "tasks": ["gsm8k"],
+        "description": "Grade School Math 8K",
+        "num_fewshot": 8,
+        "batch_size": 8,
+        "limit": null
+    },
+    "math": {
+        "tasks": ["hendrycks_math"],
+        "description": "MATH dataset - mathematical reasoning problems",
+        "num_fewshot": 8,
+        "batch_size": 8,
+        "limit": null
+    },
+    "triviaqa": {
+        "tasks": ["triviaqa"],
+        "description": "TriviaQA",
+        "num_fewshot": 8,
+        "batch_size": 8,
+        "limit": null
+    },
+    "arc": {
+        "tasks": ["arc"],
+        "description": "ARC",
+        "num_fewshot": 8,
+        "batch_size": 8,
+        "limit": null
+    },
+    "coqa": {
+        "tasks": ["coqa"],
+        "description": "COQA",
+        "num_fewshot": 8,
+        "batch_size": 8,
+        "limit": null
+    },
+    "socialiqa": {
+        "tasks": ["socialiqa"],
+        "description": "SocialIQA",
+        "num_fewshot": 8,
+        "batch_size": 8,
+        "limit": null
+    },
+    "truthfulqa": {
+        "tasks": ["truthfulqa"],
+        "description": "TruthfulQA",
+        "num_fewshot": 8,
+        "batch_size": 8,
+        "limit": null
+    }
+}

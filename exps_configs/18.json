@@ -1,0 +1,22 @@
+{
+    "model_name": "google/gemma-2-9b-it",
+    "train_template_idx": [520, 364, 116, 184, 984, 1247, 480, 266, 20, 410, 43, 1207, 456, 989, 357, 1133, 1165, 434, 406, 1239, 858, 1088, 1021, 39, 652, 976],
+    "test_template_idx": "same",
+    "n_samples": 50,
+    "train_batch_size": 8,
+    "test_batch_size": 32,
+    "mask_learning_rate": 5e-3,
+    "scheduler_gamma": 0.9,
+    "reg_coeff": [0.01],
+    "n_epochs": 50,
+    "n_steps": 30,
+    "update_coeff": -0.0005,
+    "update_using_mask": true,
+    "max_new_tokens": 1500,
+    "force_dataset_generation": false,
+    "force_mask_generation": false,
+    "force_gradients_generation": true,
+    "dataset_path": "path/to/local/dataset.json",
+    "learned_masks_path": "path/to/local/dataset.json",
+    "seed": 0
+}

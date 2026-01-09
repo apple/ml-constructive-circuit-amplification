@@ -1,0 +1,18 @@
+{
+    "gemma-2-2b-it": {
+        "name": "google/gemma-2-2b-it",
+        "precision": "float16"
+    },
+    "gemma-2-9b-it": {
+        "name": "google/gemma-2-9b-it",
+        "precision": "float16"
+    },
+    "olmo-2-1124-7b-it": {
+        "name": "allenai/OLMo-2-1124-7B-Instruct",
+        "precision": "float16"
+    },
+    "olmo-2-1124-13b-it": {
+        "name": "allenai/OLMo-2-1124-13B-Instruct",
+        "precision": "float16"
+    }
+}

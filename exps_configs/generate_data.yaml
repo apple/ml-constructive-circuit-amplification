@@ -1,0 +1,63 @@
+reasoning_clauses:
+  2_step:
+    seed: 10
+    model_name: "google/gemma-2-9b-it"
+    train_template_idx: "all"
+    num_reasoning_steps: 2
+    n_samples: 50
+    max_new_tokens: 500
+    output_file_suffix: "2_step.json"
+  3_step:
+    seed: 10
+    model_name: "google/gemma-2-9b-it"
+    train_template_idx: "all"
+    n_samples: 50
+    num_reasoning_steps: 3
+    max_new_tokens: 1000
+    output_file_suffix: "3_step.json"
+  4_step:
+    seed: 10
+    model_name: "google/gemma-2-9b-it"
+    train_template_idx: "all"
+    n_samples: 50
+    num_reasoning_steps: 4
+    max_new_tokens: 1000
+    output_file_suffix: "4_step.json"
+  5_step:
+    seed: 10
+    model_name: "google/gemma-2-9b-it"
+    train_template_idx: "all"
+    n_samples: 50
+    num_reasoning_steps: 5
+    max_new_tokens: 1500
+    output_file_suffix: "5_step.json"
+  6_step:
+    seed: 10
+    model_name: "google/gemma-2-9b-it"
+    train_template_idx: "all"
+    n_samples: 50
+    num_reasoning_steps: 6
+    max_new_tokens: 2000
+    output_file_suffix: "6_step.json"
+  7_step:
+    seed: 10
+    model_name: "google/gemma-2-9b-it"
+    train_template_idx: "all"
+    num_reasoning_steps: 7
+    max_new_tokens: 2500
+    n_samples: 50
+    output_file_suffix: "7_step.json"
+  by_template_id:
+    seed: 10
+    max_new_tokens: 2500
+    output_file_suffix: "all_steps.json"
+
+model_configs:
+  "google/gemma-2-9b-it":
+    train_template_idx: [520, 364, 116, 184, 984, 1247, 480, 266, 20, 410, 43, 1207, 456, 989, 357, 1133, 1165, 434, 406, 1239, 858, 1088, 1021, 39, 652, 976]
+  "google/gemma-2-2b-it":
+    train_template_idx: [520, 1305, 164, 991, 740, 103, 491, 364, 365, 496, 116, 125, 1025, 1031, 1020, 145, 401, 788, 918, 921, 158, 930, 1189, 1063, 184, 440, 458, 718, 728, 984, 473, 1247, 480, 636, 1277, 1026, 265, 266, 11, 20, 410, 1053, 800, 546, 937, 43, 1207, 1084, 320, 456, 982, 989, 99, 357, 1133, 1141, 737, 554, 1165, 1264, 304, 242, 434, 336, 661, 406, 1239, 858, 955, 1088, 459, 1021, 39, 74, 107, 652, 1164, 976]
+  "allenai/OLMo-2-1124-7B-Instruct":
+    train_template_idx: [520, 1305, 991, 103, 873, 116, 1031, 1020, 145, 788, 184, 728, 984, 1247, 1275, 636, 1026, 265, 266, 11, 20, 410, 1053, 800, 43, 1207, 320, 989, 99, 357, 1133, 554, 1165, 1264, 304, 242, 434, 336, 406, 1239, 858, 1088, 459, 1021, 39, 652, 976]
+  "allenai/OLMo-2-1124-13B-Instruct":
+    train_template_idx: [520, 1305, 300, 991, 740, 103, 364, 116, 184, 728, 984, 473, 1247, 1275, 1026, 265, 266, 11, 20, 410, 1053, 43, 1207, 1084, 320, 989, 99, 357, 1133, 554, 1264, 304, 434, 406, 1239, 858, 1088, 459, 39, 74, 107, 652, 976]

@@ -1,0 +1,14 @@
+{
+    "model_name": "google/gemma-2-9b-it",
+    "train_template_idx": [116, 364, 520, 991],
+    "test_template_idx": null,
+    "n_samples": 50,
+    "batch_size": 2,
+    "initial_reg_coeff_attn": [0.1, 0.05, 0.01],
+    "initial_reg_coeff_mlp": [0.5, 0.1, 0.05, 0.01],
+    "n_epochs": 3,
+    "n_steps": 1,
+    "coeff": -0.001,
+    "max_new_tokens": 300,
+    "force_mask_generation": true
+}
